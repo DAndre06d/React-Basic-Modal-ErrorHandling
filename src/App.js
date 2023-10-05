@@ -12,10 +12,10 @@ function App() {
     })
   }
   return (
-    <div>
+    <>
       <Form onAdd={onAdd} />
       <UserList users={user}/>
-    </div>
+    </>
   );
 }
 
